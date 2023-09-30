@@ -1,0 +1,60 @@
+.header{
+    margin: 0;
+    background-color: rgba(149, 51, 1, 0.884);
+    padding: 20px;
+}
+h3{
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: initial;
+    font-style: unset;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.container .logo{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    margin-left: 0;
+}
+.logo .image{
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.logo .image img{
+    height: 50px;
+    max-width: 120px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.container .anchor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.anchor a{
+    text-decoration: none;
+    align-items: flex-start;
+    padding: 0 45px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    position: relative;
+    letter-spacing: 2px;
+}
+.anchor a::after{
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: white;
+    transform: scale(0);
+    transition: 0.3s ease-in-out;
+}
+.anchor a:hover::after{
+    transform: scale(1);
+}

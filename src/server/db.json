@@ -1,0 +1,57 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Avengers Beyond #5",
+      "photoUrl": "https://cdn.marvel.com/u/prod/marvel/i/mg/9/40/64b04e086dcf3/clean.jpg",
+      "author": "Derek Landy",
+      "price": " 580",
+      "status": "not yet started",
+      "categoryId": "3",
+      "distributor": "Penguin Random House Publisher Services",
+      "Status": "3w4y"
+    },
+    {
+      "id": 2,
+      "name": "Harry Potter: The Prequel",
+      "photoUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1456894457i/8933944.jpg",
+      "author": "J.K. Rowling",
+      "price": " 850",
+      "status": "completed",
+      "distributor": "Fantastic Beasts",
+      "categoryId": "6"
+    },
+    {
+      "id": 3,
+      "name": "The Da Vinci Code",
+      "photoUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1579621267i/968.jpg",
+      "author": "Dan Brown",
+      "price": " 1050",
+      "status": "on-going",
+      "distributor": "Doubleday",
+      "categoryId": "2"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "comic"
+    },
+    {
+      "id": 2,
+      "name": "thriller"
+    },
+    {
+      "id": 3,
+      "name": "classic"
+    },
+    {
+      "id": 4,
+      "name": "romance"
+    },
+    {
+      "id": 6,
+      "name": "fantasy"
+    }
+  ]
+}

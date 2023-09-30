@@ -1,0 +1,125 @@
+.banner{
+    width:100%;
+    min-height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.749),rgba(0, 0, 0, 0.53)),url('https://th.bing.com/th/id/OIP.uzgb661eUk-HaisjM_DkLwHaEr?pid=ImgDet&rs=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner.content{
+    margin-top: 0;
+}
+.content h1{
+padding-top:30px ;
+  color: white;
+  margin-left: 180px;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.content p{
+    margin-top: 10px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.banner .button{
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.banner .button button{
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(109, 13, 13, 0.811);
+    border: 1px solid white;
+    }
+    .banner .button button:hover{
+        color: brown;
+        background-color: white;
+        border: 1px solid brown;
+
+    } 
+    .quote{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        padding: 15px;
+        align-items: center;
+    }  
+    .quote .image{
+        border: 3px solid brown;
+        border-radius: 50%;        
+    }
+    .quote .image img{
+        width: 450px;
+        height: 400px;
+        border-radius: 50%;
+    }
+    .quote .details{
+        width: 50%;
+        margin-left: 15px;
+    }
+    .details h1{
+        margin-bottom: 35px;
+        letter-spacing: 1.5px;
+        color: rgba(105, 5, 5, 0.518);
+    }
+    .details p{
+        letter-spacing: 2px ;
+        line-height: 1px;
+        text-align: justify;
+        
+    }
+    span{
+        color: brown;
+        font-weight: bolder;
+    }
+
+    .container .search input{
+        border: none;
+        border-bottom: 3px solid rgba(130, 6, 6, 0.731);
+    }
+    .col-3 .card{
+        padding: 8px;
+    }
+    .col-3 .card:hover{
+        background-color: rgba(250, 235, 215, 0.477);
+        box-shadow: 	6px -6px 11px 0px rgba(0,0,0,0.34);
+        border:	1px solid rgba(0,0,0,0.1);
+        border-radius:	15px;
+
+    }
+    .col-3 .card:hover .image img{
+       transform: scale(1.02);
+       border: 0.5px solid brown;
+    }
+    .image img{
+        width: 100%;
+        height: 200px;
+        object-fit: fill;
+        border-radius: 30px;
+    }
+    .card .card-body h5,h6,p{
+        margin: 3px;
+        color: brown;
+    }
+   button{
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(109, 13, 13, 0.811);
+   }
+   button:hover{
+    color: brown;
+        background-color: white;
+
+   }
+   span{
+    color: rgba(100, 5, 5, 0.566);
+   }

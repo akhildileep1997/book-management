@@ -1,0 +1,45 @@
+.container-view{
+   max-width: 100%;
+    min-height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.795)),url('https://th.bing.com/th/id/R.942315d34876e5a0b29bd0f893c3d0a5?rik=iNMXY50UXAp1pg&riu=http%3a%2f%2fcdn.vectorstock.com%2fi%2fthumb-large%2f75%2f05%2f757505.jpg&ehk=JdOMcoWjSxDbcZ0fSNH52rm4SZkUshB0Z8lDVVJtE58%3d&risl=&pid=ImgRaw&r=0');
+
+}
+.container-view .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    width: 450px;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.details li,h5 {
+    border-radius: 8px;
+    color: brown;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+.image{
+ margin-top: 50px;
+ overflow: hidden;
+ border: 0.2px solid white;
+ border-radius: 25px;
+}
+.image img{
+    width: 450px;
+    height: 380px;
+    border-radius: 25px;
+}
+button{
+    background-color: rgba(156, 10, 10, 0.61);
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    color: brown;
+    background-color: white;
+    border: 0.5px solid brown;
+}

@@ -1,0 +1,21 @@
+<div class="container-view">
+
+    <div class="item">
+        <div class="details mx-5">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item mt-3 mb-2 shadow text-center"><h5>{{book.name}}</h5> </li>
+                <li class="list-group-item my-2 shadow">Author: {{book.author}}</li>
+                <li class="list-group-item my-2 shadow"> ₹ {{book.price}}</li>
+                <li class="list-group-item my-2 shadow">Category: {{categoryName}}</li>
+                <li class="list-group-item my-2 shadow">Publisher: {{book.distributor}}</li>
+                <li class="list-group-item my-2 shadow">status:{{book.status}}</li>
+              </ul>
+             <div> <button routerLink="/libraryHome/libraryManager/" class="my-3 btn form-control">back to store</button></div>
+        </div>
+
+        <div class="image">
+            <img [src]="book.photoUrl" alt="">
+        </div>
+
+    </div>
+</div>

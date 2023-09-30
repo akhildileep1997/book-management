@@ -1,0 +1,48 @@
+.item{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.715),rgba(0, 0, 0, 0.66)),url('https://th.bing.com/th/id/R.942315d34876e5a0b29bd0f893c3d0a5?rik=iNMXY50UXAp1pg&riu=http%3a%2f%2fcdn.vectorstock.com%2fi%2fthumb-large%2f75%2f05%2f757505.jpg&ehk=JdOMcoWjSxDbcZ0fSNH52rm4SZkUshB0Z8lDVVJtE58%3d&risl=&pid=ImgRaw&r=0');
+}
+.form{
+    width: 450px;
+    border: 2px solid black;
+    background-color: rgba(253, 253, 253, 0.712);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    width: 100%;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgba(165, 42, 42, 0.822);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+button:hover{
+    color: brown;
+    background-color: rgba(255, 255, 255, 0.858);
+}
+.form form{
+    padding: 10px;
+}
+.image{
+    width: 480px;
+    margin-left: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1.5px solid white;
+}
+.image img{
+    width: 100%;
+    border-radius: 50%;
+    min-height: 370px;
+    filter: brightness(70%);
+}

@@ -1,0 +1,50 @@
+<div class="item">
+       <div class="form">
+        <form> 
+              <div class="mb-1">
+                <label for="exampleFormControlInput1" class="form-label">Book Name</label>
+                <input [(ngModel)]="book.name" name="name" type="text" class="form-control" id="exampleFormControlbookName" placeholder="enter name of the book">
+              </div>
+
+              <div class="mb-1">
+                <label for="exampleFormControlphotourl" class="form-label">Photo</label>
+                <input [(ngModel)]="book.photoUrl" name="photoUrl" type="text" class="form-control" id="exampleFormControlphotourl" placeholder="add an image of the book">
+              </div>
+
+              <div class="mb-1">
+                <label for="exampleFormControlInput1" class="form-label">Author</label>
+                <input [(ngModel)]="book.author" name="author" type="text" class="form-control" id="exampleFormControlauthor" placeholder="name of the author">
+              </div>
+
+              <div class="mb-1">
+                <label for="exampleFormControlInput1" class="form-label">Price</label>
+                <input [(ngModel)]="book.price" name="price" type="text" class="form-control" id="exampleFormControlprice" placeholder="enter the cost of book ">
+              </div>
+
+              <div class="mb-1">
+                <label for="exampleFormControlInput1" class="form-label">Publisher</label>
+                <input [(ngModel)]="book.distributor" name="publisher" type="text" class="form-control" id="exampleFormControlstatus" placeholder="current status ">
+              </div>
+
+              <div class="mb-1">
+                <label for="exampleFormControlInput1" class="form-label">Status</label>
+                <input [(ngModel)]="book.status" name="status" type="text" class="form-control" id="exampleFormControlstatus" placeholder="current status ">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">category</label>
+                <select [(ngModel)]="book.categoryId" name="categoryId" class="form-control" id="">
+                  <option selected hidden disabled>{{book.categoryId}}</option>
+                  <option [value]="category.id" *ngFor="let category of AllCategory"></option>
+                </select>
+              </div>
+
+              <div class="my-2"><button (click)="updateBook()">Update</button></div>
+        </form>
+       </div>
+       <div class="image">
+        <img src="https://th.bing.com/th/id/R.c42cc6210fcb93e743981d3d34722bf7?rik=I7PuYg0ua9pOqA&riu=http%3a%2f%2fbestanimations.com%2fBooks%2fpretty-book-bench-nature-water-outdoors-animated-gif.gif&ehk=CdEtF9btWkEo4Cl%2b8DBfudi8ig48VvowFbbkzAOub%2fQ%3d&risl=&pid=ImgRaw&r=0" alt="">
+       </div>
+
+</div>
+

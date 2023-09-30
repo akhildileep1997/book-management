@@ -1,0 +1,55 @@
+<!-- {{book|json}} -->
+<div class="item">
+       <div class="form">
+        <form autocomplete="off">
+            <div class="mb-1">
+                <label  for="exampleFormControlId" class="form-label">Id</label>
+                <input required [(ngModel)]="book.id" name="id" type="id" class="form-control" id="exampleFormControlid" placeholder="enter Id" >
+              </div>  
+
+              <div class="mb-1">
+                <label for="exampleFormControlInput1" class="form-label">Book Name</label>
+                <input required [(ngModel)]="book.name" name="name"  type="text" class="form-control" id="exampleFormControlbookName" placeholder="enter name of the book">
+              </div>
+
+              <div class="mb-1">
+                <label for="exampleFormControlphotourl" class="form-label">Photo</label>
+                <input required [(ngModel)]="book.photoUrl" name="photoUrl" type="text" class="form-control" id="exampleFormControlphotourl" placeholder="add an image of the book">
+              </div>
+
+              <div class="mb-1">
+                <label for="exampleFormControlInput1" class="form-label">Author</label>
+                <input required [(ngModel)]="book.author" name="author" type="text" class="form-control" id="exampleFormControlauthor" placeholder="name of the author">
+              </div>
+
+              <div class="mb-1">
+                <label for="exampleFormControlInput1" class="form-label">Price</label>
+                <input required [(ngModel)]="book.price" name="price" type="text" class="form-control" id="exampleFormControlprice" placeholder="enter the cost of book ">
+              </div>
+
+              <div class="mb-1">
+                <label for="exampleFormControlInput1" class="form-label">Publisher</label>
+                <input required [(ngModel)]="book.distributor" name="publisher" type="text" class="form-control" id="exampleFormControlstatus" placeholder="name of the publisher ">
+              </div>
+
+              <div class="mb-1">
+                <label for="exampleFormControlInput1" class="form-label">Status</label>
+                <input required [(ngModel)]="book.status" name="status" type="text" class="form-control" id="exampleFormControlstatus" placeholder="current status ">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">category</label>
+                <select [(ngModel)]="book.categoryId" name="categoryId" class="form-control">
+                  <option selected hidden disabled>{{book.categoryId}}</option>
+                  <option [value]="category.id" *ngFor="let category of categoryName">{{category.name}}</option>
+                </select>
+              </div>
+
+              <div ><button class="mb-2 mt-3" (click)="addBooks()">Add To List</button></div>
+        </form>
+</div>
+    <div class="image">
+      <img src="https://th.bing.com/th/id/R.c42cc6210fcb93e743981d3d34722bf7?rik=I7PuYg0ua9pOqA&riu=http%3a%2f%2fbestanimations.com%2fBooks%2fpretty-book-bench-nature-water-outdoors-animated-gif.gif&ehk=CdEtF9btWkEo4Cl%2b8DBfudi8ig48VvowFbbkzAOub%2fQ%3d&risl=&pid=ImgRaw&r=0" alt="">
+     </div>
+
+</div>
